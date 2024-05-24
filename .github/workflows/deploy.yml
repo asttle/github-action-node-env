@@ -12,6 +12,7 @@ jobs:
       MONGODB_CLUSTER_ADDRESS: test-cluster.fqaqn7y.mongodb.net
       MONGODB_USERNAME: asttle1997
       MONGODB_PASSWORD: GlDBFch5y0nqKXru
+      PORT: 8000
     environment: testing
     runs-on: ubuntu-latest
     steps:
